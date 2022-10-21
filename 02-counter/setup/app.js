@@ -13,6 +13,7 @@ btns.forEach((item) => {
   item.addEventListener("click", function (e) {
     // console.log(e.currentTarget.classList); //узнаем по какой кнопке мы кликаем
     const styles = e.currentTarget.classList; // обращаемся к стилям этой кнопки
+	
     if (styles.contains("decrease")) {
       count--;
     } else if (styles.contains("increase")) {
@@ -20,6 +21,7 @@ btns.forEach((item) => {
     } else {
       count = 0;
     }
+
     if (count > 0) {
       value.style.color = "green";
     } else if (count < 0) {

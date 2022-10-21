@@ -68,8 +68,8 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
-  color: var(--clr-grey-1);
+  background: var(--clr-grey-1);
+  color: var(--clr-grey-10);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -177,7 +177,7 @@ main {
   max-width: var(--fixed-width);
 }
 .review {
-  background: var(--clr-white);
+  background: #222;
   padding: 1.5rem 2rem;
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
@@ -225,8 +225,8 @@ main {
   height: 100%;
   background: var(--clr-primary-5);
   position: absolute;
-  top: -0.25rem;
-  right: -0.5rem;
+  top: 0rem;
+  right: 0rem;
   border-radius: 50%;
 }
 #author {
@@ -240,6 +240,7 @@ main {
 }
 #info {
   margin-bottom: 0.75rem;
+  color: #fff;
 }
 .prev-btn,
 .next-btn {
